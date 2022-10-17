@@ -28,7 +28,7 @@ public class Main {
         intArr.add(10);
 
         T2204MStudent ts =new T2204MStudent();
-        ts.run()
+        ts.run();
         ts.setMark(5);
         System.out.println(ts.getMark());
         // ts.mark
