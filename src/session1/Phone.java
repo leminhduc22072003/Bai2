@@ -1,4 +1,4 @@
-package session4lab1;
+package session1;
 
 public abstract class Phone {
     public abstract void insertPhone(String name, String phone);
