@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="800468eb-964b-4042-bebe-b36c14fd291d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lo/laptrinh/Java/FirstJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session3/T2204Mclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session5lab2/KhachHangNuocNgoai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session5lab2/KhachHangVietNam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session5lab2/Khachhang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session5lab2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session5lab2/infor.java" afterDir="false" />
+    <list default="true" id="800468eb-964b-4042-bebe-b36c14fd291d" name="Changes" comment="&#10;leminhduc22072003/Bai2">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seesion4lab1/Phonebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seesion4lab1/contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seesion4lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seesion4lab1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seesion4lab1/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seesion4lab1/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seesion4lab1/PhoneBook.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +52,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.session3.Main">
+  <component name="RunManager" selected="Application.seesion4lab1.Main">
     <configuration name="Unnamed" type="AntRunConfiguration" nameIsGenerated="true">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,6 +67,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seesion4lab1.Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="seesion4lab1.Main" />
+      <module name="Bai2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,6 +123,7 @@
     <list>
       <item itemvalue="Ammonite.Unnamed" />
       <item itemvalue="Ant Target.Unnamed" />
+      <item itemvalue="Application.seesion4lab1.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.FirstJava" />
       <item itemvalue="Application.session3.Main" />
@@ -146,6 +145,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665636157982</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit testleminhduc22072003/Bai2">
+      <created>1666064518323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666064518323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,5 +165,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit testleminhduc22072003/Bai2" />
+    <MESSAGE value="&#10;leminhduc22072003" />
+    <MESSAGE value="&#10;leminhduc22072003/Bai2" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;leminhduc22072003/Bai2" />
   </component>
 </project>

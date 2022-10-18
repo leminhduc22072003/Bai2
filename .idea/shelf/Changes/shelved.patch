@@ -1,0 +1,326 @@
+Index: src/session4/Robot.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/session4/Robot.java b/src/session4/Robot.java
+new file mode 100644
+--- /dev/null	(date 1666059600430)
++++ b/src/session4/Robot.java	(date 1666059600430)
+@@ -0,0 +1,8 @@
++package session4;
++
++public class Robot extends Human{
++
++    public void run(){
++
++    }
++}
+Index: src/session4/VietNam.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/session4/VietNam.java b/src/session4/VietNam.java
+new file mode 100644
+--- /dev/null	(date 1666059276387)
++++ b/src/session4/VietNam.java	(date 1666059276387)
+@@ -0,0 +1,13 @@
++package session4;
++
++public class VietNam extends Human {
++    @Override
++    public void eat(){
++        System.out.println("An com...");
++    }
++
++    @Override
++    public void run(){
++        System.out.println("Chay 5km");
++    }
++}
+Index: src/session4/Human.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/session4/Human.java b/src/session4/Human.java
+new file mode 100644
+--- /dev/null	(date 1666059276394)
++++ b/src/session4/Human.java	(date 1666059276394)
+@@ -0,0 +1,7 @@
++package session4;
++
++public abstract class Human {
++    public abstract void eat ();
++    public abstract void run();
++
++}
+Index: src/seesion4lab1/contact.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/seesion4lab1/contact.java b/src/seesion4lab1/contact.java
+new file mode 100644
+--- /dev/null	(date 1666063630159)
++++ b/src/seesion4lab1/contact.java	(date 1666063630159)
+@@ -0,0 +1,16 @@
++package session4lab1;
++
++import java.util.ArrayList;
++
++public class contact{
++    public String name;
++    public ArrayList<String> phone = new ArrayList<String>();
++    public contact(String name, String phone){
++        this.name = name;
++        this.phone.add(phone);
++    }
++}
++Footer
++        © 2022 GitHub, Inc.
++        Footer navigation
++        Terms
+\ No newline at end of file
+Index: src/session4/CityBoy.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/session4/CityBoy.java b/src/session4/CityBoy.java
+new file mode 100644
+--- /dev/null	(date 1666061845365)
++++ b/src/session4/CityBoy.java	(date 1666061845365)
+@@ -0,0 +1,17 @@
++package session4;
++
++public interface CityBoy extends Human  FemaleInterface MaleInterface{
++    @Override
++    public void eat(){
++
++}
++
++    @Override
++    public void run();{
++
++    }
++
++    @Override
++    public void shopping(){
++        
++    }
+\ No newline at end of file
+Index: src/session4/FemaleInterface.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/session4/FemaleInterface.java b/src/session4/FemaleInterface.java
+new file mode 100644
+--- /dev/null	(date 1666061845348)
++++ b/src/session4/FemaleInterface.java	(date 1666061845348)
+@@ -0,0 +1,5 @@
++package session4;
++
++public interface FemaleInterface {
++    void shopping();
++}
+Index: src/session4/MaleInterface.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/session4/MaleInterface.java b/src/session4/MaleInterface.java
+new file mode 100644
+--- /dev/null	(date 1666061845358)
++++ b/src/session4/MaleInterface.java	(date 1666061845358)
+@@ -0,0 +1,7 @@
++package session4;
++
++public interface MaleInterface {
++    void playGame();
++    void playfootball();//public abstract void
++
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"800468eb-964b-4042-bebe-b36c14fd291d\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/codeStyles/Project.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/runConfigurations/Main.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Bai2.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lo/laptrinh/Java/FirstJava.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/session3/Main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/session3/T2204Mclass.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/session5lab2/KhachHangNuocNgoai.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/session5lab2/KhachHangVietNam.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/session5lab2/Khachhang.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/session5lab2/Main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/session5lab2/infor.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeStyleSettingsInfer\">\r\n    <option name=\"done\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"AnnotationType\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2G47lwc2HtwE0pVbFL1f0LlWato\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.session3.Main\">\r\n    <configuration name=\"Unnamed\" type=\"AntRunConfiguration\" nameIsGenerated=\"true\">\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FirstJava\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lo.laptrinh.Java.FirstJava\" />\r\n      <module name=\"Bai2\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lo.laptrinh.Java.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"session3.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"session3.Main\" />\r\n      <module name=\"Bai2\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"session3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Unnamed\" type=\"MavenRunConfiguration\" factoryName=\"Maven\">\r\n      <MavenSettings>\r\n        <option name=\"myGeneralSettings\" />\r\n        <option name=\"myRunnerSettings\" />\r\n        <option name=\"myRunnerParameters\">\r\n          <MavenRunnerParameters>\r\n            <option name=\"profiles\">\r\n              <set />\r\n            </option>\r\n            <option name=\"goals\">\r\n              <list />\r\n            </option>\r\n            <option name=\"pomFileName\" />\r\n            <option name=\"profilesMap\">\r\n              <map />\r\n            </option>\r\n            <option name=\"resolveToWorkspace\" value=\"false\" />\r\n            <option name=\"workingDirPath\" value=\"\" />\r\n          </MavenRunnerParameters>\r\n        </option>\r\n      </MavenSettings>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Unnamed\" type=\"ScalaAmmoniteRunConfigurationType\" factoryName=\"Ammonite\">\r\n      <setting name=\"execName\" value=\"amm\" />\r\n      <setting name=\"fileName\" value=\"\" />\r\n      <setting name=\"scriptParameters\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Ammonite.Unnamed\" />\r\n      <item itemvalue=\"Ant Target.Unnamed\" />\r\n      <item itemvalue=\"Application.Main\" />\r\n      <item itemvalue=\"Application.FirstJava\" />\r\n      <item itemvalue=\"Application.session3.Main\" />\r\n      <item itemvalue=\"Maven.Unnamed\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.session3.Main\" />\r\n        <item itemvalue=\"Application.FirstJava\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"800468eb-964b-4042-bebe-b36c14fd291d\" name=\"Changes\" comment=\"\" />\r\n      <created>1665636157982</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1665636157982</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision db15120c36a43b66ff15f6bb8f7ba042e0c843ae)
++++ b/.idea/workspace.xml	(date 1666064092834)
+@@ -4,24 +4,15 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="800468eb-964b-4042-bebe-b36c14fd291d" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Bai2.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/lo/laptrinh/Java/FirstJava.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/session3/Main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/session3/T2204Mclass.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/session5lab2/KhachHangNuocNgoai.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/session5lab2/KhachHangVietNam.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/session5lab2/Khachhang.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/session5lab2/Main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/session5lab2/infor.java" afterDir="false" />
++    <list default="true" id="800468eb-964b-4042-bebe-b36c14fd291d" name="Changes" comment="commit testleminhduc22072003/Bai2">
++      <change afterPath="$PROJECT_DIR$/src/seesion4lab1/contact.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/session4/CityBoy.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/session4/FemaleInterface.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/session4/Human.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/session4/MaleInterface.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/session4/Robot.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/session4/VietNam.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -30,11 +21,15 @@
+   </component>
+   <component name="CodeStyleSettingsInfer">
+     <option name="done" value="true" />
++  </component>
++  <component name="ExportToHTMLSettings">
++    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Bai2\exportToHTML" />
+   </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="AnnotationType" />
++        <option value="Interface" />
+         <option value="Class" />
+       </list>
+     </option>
+@@ -61,13 +56,13 @@
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.session3.Main">
++  <component name="RunManager" selected="Application.session5lab2.Main">
+     <configuration name="Unnamed" type="AntRunConfiguration" nameIsGenerated="true">
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="FirstJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="FirstJava" type="Application" factoryName="Application" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="lo.laptrinh.Java.FirstJava" />
+       <module name="Bai2" />
+       <extension name="coverage">
+@@ -80,8 +75,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="session3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="session3.Main" />
++    <configuration name="session5lab2.Main" type="Application" factoryName="Application" temporary="true">
++      <option name="MAIN_CLASS_NAME" value="session5lab2.Main" />
+       <module name="Bai2" />
+       <extension name="coverage">
+         <pattern>
+@@ -127,13 +122,12 @@
+       <item itemvalue="Ant Target.Unnamed" />
+       <item itemvalue="Application.Main" />
+       <item itemvalue="Application.FirstJava" />
+-      <item itemvalue="Application.session3.Main" />
++      <item itemvalue="Application.session5lab2.Main" />
+       <item itemvalue="Maven.Unnamed" />
+     </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.session3.Main" />
+-        <item itemvalue="Application.FirstJava" />
++        <item itemvalue="Application.session5lab2.Main" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -146,11 +140,58 @@
+       <option name="presentableId" value="Default" />
+       <updated>1665636157982</updated>
+     </task>
++    <task id="LOCAL-00001" summary="commit test">
++      <created>1665977258408</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1665977258408</updated>
++    </task>
++    <task id="LOCAL-00002" summary="commit test">
++      <created>1665977300663</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1665977300663</updated>
++    </task>
++    <task id="LOCAL-00003" summary="commit test">
++      <created>1666063741598</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1666063741598</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
++        <entry key="0278770c-b858-4cee-b774-719f866ebc2e">
++          <value>
++            <State>
++              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="HEAD" />
++                      </list>
++                    </value>
++                  </entry>
++                  <entry key="structure">
++                    <value>
++                      <list>
++                        <option value="dir:C:/Users/admin/IdeaProjects/Bai2/src/seesion4lab1" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
+         <entry key="MAIN">
+           <value>
+             <State />
+@@ -158,5 +199,17 @@
+         </entry>
+       </map>
+     </option>
++    <option name="OPEN_GENERIC_TABS">
++      <map>
++        <entry key="0278770c-b858-4cee-b774-719f866ebc2e" value="TOOL_WINDOW" />
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="s" />
++    <MESSAGE value="commit test" />
++    <MESSAGE value="commit testleminhduc22072003" />
++    <MESSAGE value="commit testleminhduc22072003/Bai2" />
++    <option name="LAST_COMMIT_MESSAGE" value="commit testleminhduc22072003/Bai2" />
+   </component>
+ </project>
+\ No newline at end of file

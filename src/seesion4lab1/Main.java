@@ -1,13 +1,13 @@
-package seesion4lab1;
+package session4lab1;
 
 public class Main {
-    public static void main (String[] args){
-        PhoneBook pb1 = new Phone Book();
+    public static void main(String[] args){
+        PhoneBook pb1 = new PhoneBook();
 
-        pb1.insertPhone("Duc","0369286085");
-        pb1.insertPhone("an"),"0123456789");
-        pb1.insertPhone("dat"),("02439871492");
-        pb1.insertPhone("dung"),("0349085534");
+        pb1.insertPhone("Cam","0359903359");
+        pb1.insertPhone("Linh","0904175005");
+        pb1.insertPhone("Lê Cường","012345678");
+        pb1.insertPhone("Duy","023456789");
 
         System.out.println("\nDisplay contact list\n");
         for(contact ct: pb1.PhoneList){
@@ -15,7 +15,7 @@ public class Main {
             System.out.println(ct.phone);
         }
 
-        pb1.removePhone("Lê Đức");
+        pb1.removePhone("Lê Cường");
         System.out.println("\nRemove\n");
         for(contact ct: pb1.PhoneList){
             System.out.println(ct.name);
@@ -23,8 +23,8 @@ public class Main {
         }
 
         System.out.println("\nUpdate\n");
-        pb1.updatePhone("Lê An","012345678");
-        pb1.updatePhone("Đức","0369286085");
+        pb1.updatePhone("Lê Cường","012345678");
+        pb1.updatePhone("Duy","034567890");
 
         for(contact ct: pb1.PhoneList){
             System.out.println(ct.name);
@@ -32,12 +32,10 @@ public class Main {
         }
 
         System.out.println("\nSearch\n");
-        pb1.searchPhone("Duc");
-        pb1.searchPhone("Dat");
+        pb1.searchPhone("Cam");
+        pb1.searchPhone("Cuong");
 
         System.out.println("\nSort\n");
         pb1.sort();
     }
 }
-
-
