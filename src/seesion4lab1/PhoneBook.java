@@ -2,7 +2,7 @@ package session4lab1;
 
 import java.util.*;
 
-public class PhoneBook extends phone{
+public class PhoneBook extends Phone{
     public ArrayList<contact> PhoneList = new ArrayList();
 
     public void inputPhone(){
