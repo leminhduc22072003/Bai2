@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="1039.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JP2.SuperMarket.HoaDonController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="583.0" prefWidth="1040.0">
+         <children>
+            <TableView fx:id="tbHoaDon" layoutX="58.0" layoutY="100.0" prefHeight="368.0" prefWidth="907.0">
+              <columns>
+                <TableColumn fx:id="sMaHD" prefWidth="73.0" text="Mã HD " />
+                <TableColumn fx:id="sMaNV" text="Mã NV " />
+                  <TableColumn fx:id="sMaKH" prefWidth="77.0" text="Mã KH " />
+                  <TableColumn fx:id="sMaSP" text="Mã SP" />
+                  <TableColumn fx:id="sSL" prefWidth="92.0" text="Số Lượng" />
+                  <TableColumn fx:id="sGG" prefWidth="113.0" text="Giảm Giá" />
+                  <TableColumn fx:id="sNRHD" prefWidth="126.0" text="Ngày RHD" />
+                  <TableColumn fx:id="sTT" prefWidth="136.0" text="Thành Tiền" />
+                  <TableColumn fx:id="sSua" prefWidth="67.0" text="Sửa " />
+                  <TableColumn fx:id="sXoa" prefWidth="62.0" text="Xóa  " />
+              </columns>
+            </TableView>
+            <Button layoutX="58.0" layoutY="34.0" mnemonicParsing="false" onAction="#backHoaDon" prefHeight="0.0" prefWidth="98.0" text="&lt;&lt;Trở Lại " />
+            <Button layoutX="873.0" layoutY="34.0" mnemonicParsing="false" onAction="#addHoaDon" prefHeight="31.0" prefWidth="92.0" text="Thêm HD " />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
